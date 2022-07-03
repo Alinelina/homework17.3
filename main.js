@@ -5,7 +5,7 @@
 //     - В противном случае, полная дата в формате `"DD.MM.YY HH:mm"`. А именно: `"день.месяц.год часы:минуты"`, всё в виде двух цифр, т.е. `31.12.16 10:00`.
 
 function formatDate(date) {
-    let diff = new Date() - date;
+    const diff = new Date() - date;
     console.log(diff);
 
     if (diff < 1000) {
